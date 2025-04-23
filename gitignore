@@ -1,0 +1,62 @@
+# Node modules (backend + frontend)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+build/
+dist/
+client/build/
+server/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime files
+*.pid
+*.seed
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Editor & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# OS-specific
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Python virtualenv (if venv exists)
+venv/
+__pycache__/
+*.pyc
+
+# GitHub Pages
+*.tgz
+*.zip
+
+# Optional: ignore output of ngrok or tunnel files
+ngrok.log
+.ngrok-debug.log
+.ngrok2/
+
+# Ignore compiled JSON lockfiles (if switching between npm/yarn)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Deployment
+*.pem
+*.crt
+*.key
